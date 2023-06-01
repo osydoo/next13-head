@@ -15,12 +15,11 @@ export default function Component(){
 
     useEffect(()=>{
         if(data){
-            console.log(data)
             document.title = data;
         }
 
       }, [data])
-      
+
     return (
         <div>component</div>
     )

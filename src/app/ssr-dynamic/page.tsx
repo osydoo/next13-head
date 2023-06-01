@@ -1,8 +1,4 @@
 
-/**
- * title 잘 바뀝니다.
- * @returns 
- */
 export default function Page() {
     return (
       <div>
@@ -19,7 +15,7 @@ export default function Page() {
     }
   };
 
-  const getData = () => new Promise((resolve) => resolve('title'));
+  const getData = () => new Promise((resolve) => resolve('SSR-DYNAMIC'));
    
   
   // https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#step-3-migrating-nexthead

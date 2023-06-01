@@ -1,8 +1,5 @@
 import Component from './component'
-/**
- * title 잘 바뀝니다.
- * @returns 
- */
+
 export default async function Page() {
 
     return (
