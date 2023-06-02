@@ -14,7 +14,6 @@ export default function Component() {
   // next13/main?query=url
   export async function generateMetadata ({params, searchParams}: Props) {
     const {id} = params;
-    console.log(searchParams.query)
 
     return {
       title: id + searchParams.query
